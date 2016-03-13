@@ -1,0 +1,28 @@
+*   Trying 77.93.223.226...
+* Connected to audeliver.com (77.93.223.226) port 80 (#0)
+> GET /api/user HTTP/1.1
+> Host: audeliver.com
+> User-Agent: curl/7.47.1
+> Accept: application/xml
+> Authorization: Basic eGZlZG9yMDNAc3R1ZC5maXQudnV0YnIuY3o6YXVkZWxpdmVy
+>
+< HTTP/1.1 200 OK
+< Access-Control-Allow-Origin: *
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: Nette Framework
+< Vary: X-Requested-With
+< Content-Type: application/xml
+< Transfer-Encoding: chunked
+< Date: Wed, 09 Mar 2016 13:38:43 GMT
+< Server: lighttpd/1.4.35
+<
+<?xml version="1.0" encoding="utf8"?>
+<result>
+        <user>
+                <email>xfedor03@stud.fit.vutbr.cz</email>
+                <name>Jakub Fedor</name>
+                <username>xfedor03</username>
+                <created>2016-01-16 05:26:35</created>
+                <accessed>2016-03-08 17:07:06</accessed>
+        </user>
+</result>* Connection #0 to host audeliver.com left intact
